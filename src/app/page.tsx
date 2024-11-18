@@ -4,6 +4,7 @@ import './style/home.css'
 import Computador from '../../public/Computador.svg';
 import Planos from '../app/components/Planos/index';
 import MulherComCelular from '../../public/MulherComCelular.svg'
+import Faq from './components/Faq';
 
 export default function Home() {
   return (
@@ -64,8 +65,12 @@ export default function Home() {
           </button>
         </div>
 
-          <img className='mulherSection' src="MulherComCelular.svg" alt="" />
+        <img className='mulherSection' src="MulherComCelular.svg" alt="" />
       </section>
+
+
+      <Faq />
+
     </>
   );
 }
