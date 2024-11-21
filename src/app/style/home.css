@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 .home-container {
     display: flex;
     flex-direction: row;
     width: 40%;
+    padding: 0 0 0 10rem;
 }
 
 .text-container {
@@ -10,16 +14,24 @@
     align-items: flex-start;
     padding: 0 0 0 1.5rem;
     width: 35rem;
+  
     
     
     h1 {
         color: #0E1133;
         font-size: 3rem;
+        font-family: "Nunito", sans-serif;
+        line-height: 1.2em;
     }
 
     p {
         color: #505056;
+        font-family: "Rubik", sans-serif;
     }
+}
+
+.logoToYou {
+    padding: 0 0 5rem 0;
 }
 
 main {

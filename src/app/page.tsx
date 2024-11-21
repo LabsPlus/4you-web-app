@@ -1,9 +1,6 @@
-import LogoToYou from '../../public/LogoToYou.svg'
 import ImageHeader from './components/home/ImageHeader';
 import './style/home.css'
-import Computador from '../../public/Computador.svg';
 import Planos from '../app/components/Planos/index';
-import MulherComCelular from '../../public/MulherComCelular.svg'
 import Faq from './components/Faq';
 
 export default function Home() {
@@ -12,13 +9,13 @@ export default function Home() {
       <div className="home-container">
         <div>
 
-          <img src="LogoToYou.svg" alt="Logo to you" />
+          <img className='logoToYou' src="LogoToYou.svg" alt="Logo to you" />
 
 
           <div className="text-container">
             <h1>Welcome to To yoou – <br /> The Personalized <br /> Friendship Site to <br /> Celebrate Special <br /> Connections!</h1>
 
-            <p>Imagine having a personalized space just for you and your closest friends. With 4yoou, you create a unique friendship tree, with special details about each friend and automatic reminders for important dates so you never miss a celebration.</p>
+            <p>Imagine having a personalized space just for you and your closest friends. With br 4yoou, you create a unique friendship tree, with special details about each friend and automatic reminders for important dates so you never miss a celebration.</p>
           </div>
 
         </div>
