@@ -1,13 +1,14 @@
 import React from 'react'
-import MulherComCelular from '../../../../public/MulherComCelular.svg'
 import './style.css'
 
 const ImageHeader = () => {
 
     return (
         <div className='img-container'>
+
+            <img className='ptImage' src="PT.svg" alt="pt" />
        
-           <img className='mulherCel' src="MulherComCelular.svg" alt="" />
+           <img className='mulherCel' src="ImageHeader.svg" alt="" />
         </div>
     )
 }
