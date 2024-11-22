@@ -2,6 +2,7 @@ import ImageHeader from './components/home/ImageHeader';
 import './style/home.css'
 import Planos from '../app/components/Planos/index';
 import Faq from './components/Faq';
+import HowItWork from './components/how-it-work';
 
 export default function Home() {
   return (
@@ -9,13 +10,13 @@ export default function Home() {
       <div className="home-container">
         <div>
 
-          <img src="LogoToYou.svg" alt="Logo to you" />
+          <img className='logoToYou' src="LogoToYou.svg" alt="Logo to you" />
 
 
           <div className="text-container">
             <h1>Welcome to To yoou – <br /> The Personalized <br /> Friendship Site to <br /> Celebrate Special <br /> Connections!</h1>
 
-            <p>Imagine having a personalized space just for you and your closest friends. With 4yoou, you create a unique friendship tree, with special details about each friend and automatic reminders for important dates so you never miss a celebration.</p>
+            <p>Imagine having a personalized space just for you and your closest friends. With br 4yoou, you create a unique friendship tree, with special details about each friend and automatic reminders for important dates so you never miss a celebration.</p>
           </div>
 
         </div>
@@ -27,7 +28,8 @@ export default function Home() {
 
         <input type='image' className='bolinhas' src="Bolinhas.svg" alt="bolinhas" />
 
-        <div className="info-container">
+        <HowItWork />
+        {/* <div className="info-container">
           <div className='info1-container' >
             <div className='info1'>
               <h5>Create Your Page</h5>
@@ -67,7 +69,10 @@ export default function Home() {
             </div>
           </div>
 
+          
           <div className='info4-container' >
+          <div style={{width: '35rem', height: '12rem', left: '722px', top: '2073px', position: 'absolute', background: 'white', boxShadow: '0px 69px 114px rgba(0, 122, 255, 0.46)', borderRadius: '10px'}}></div>
+
             <div className='info4'>
               <h5>Automatic Reminders and <br /> Suggestions</h5>
 
@@ -75,8 +80,8 @@ export default function Home() {
 
               <p>Receive special notifications for birthdays and <br /> interests, with gift ideas and actions to strengthen <br /> these connections even more!</p>
             </div>
-          </div>
-        </div>
+          </div> 
+        </div> */}
       </main>
 
       <Planos />
