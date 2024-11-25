@@ -21,7 +21,7 @@ const HowItWork = () => {
                 </div>
 
 
-                <div className="howItWorkItem" style={{margin: '0 20% 0 10%'}}>
+                <div className="howItWorkItem" style={{margin: '0 10% 0 20%'}}>
 
                     <Image src="Computador.svg" alt="risco" width={100} height={100} />
 
@@ -31,7 +31,7 @@ const HowItWork = () => {
                     </div>
                 </div>
 
-                <div className="howItWorkItem" style={{margin: '0 10% 0 20%'}}>
+                <div className="howItWorkItem" style={{margin: '0 20% 0 10%'}}>
 
                     <Image src="Computador.svg" alt="risco" width={100} height={100} />
 
