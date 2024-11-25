@@ -4,6 +4,7 @@ import Planos from '../app/components/Planos/index';
 import Faq from './components/Faq';
 import HowItWork from './components/how-it-work';
 import Image from 'next/image';
+import Footer from '../app/components/footer/index';
 
 export default function Home() {
   return (
@@ -52,6 +53,7 @@ export default function Home() {
 
       <Faq />
 
+     <Footer />
     </>
   );
 }
