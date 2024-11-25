@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react'
 import './style.css'
+import Image from 'next/image';
 
 
 const Faq = () => {
@@ -67,7 +68,7 @@ const Faq = () => {
                                 width: "25rem"
                             }}
                         >
-                            {item.pergunta} <img src="Icon+.svg" alt="" />
+                            {item.pergunta} <Image src="Icon+.svg" alt="icor" width={100} height={100} />
                         </div>
                         {activeIndex === index && (
                             <div style={{ 
