@@ -68,7 +68,7 @@ const Faq = () => {
                                 width: "25rem"
                             }}
                         >
-                            {item.pergunta} <Image src="Icon+.svg" alt="icor" width={100} height={100} />
+                            {item.pergunta} <Image src="Icon+.svg" alt="icone" width={10} height={10} />
                         </div>
                         {activeIndex === index && (
                             <div style={{ 
