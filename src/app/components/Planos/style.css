@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 .planos-container {
     display: flex;
     align-items: center;
@@ -12,34 +16,16 @@
     justify-content: center;
     text-align: center;
     gap: 2rem;
-    padding: 5rem 0 0 0 ;
-}
+    padding: 10rem 0 10rem 0 ;
 
-.card {
-    width: 20rem;
-    height: 25rem;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1rem;
-    text-align: start;
-}
+    h1 {
+        font-family: "Nunito", serif;
+    }
 
-.card:hover {
-    background-color: #007AFF;
-}
-
-ul {
-    padding: 0 0 1rem 0;
-}
-
-li {
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
+    p {
+        font-family: "Rubik", serif;
+    }
+    
 }
 
 .btn-planos {
@@ -53,4 +39,57 @@ li {
 
 .btn-planos:hover{
     cursor: pointer;
+    background-color: rgb(204, 204, 204);
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.5rem;
+}
+
+.planos-apper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: 23rem;
+    height: 30rem;
+    text-align: start;
+
+    h4 {
+        font-family: "Nunito", serif;
+    }
+
+    h2 {
+        font-family: "Nunito", serif;
+        font-size: calc(2.5rem);
+    }
+
+    p {
+        font-family: "Rubik", serif;
+    }
+}
+
+.planos-apper:hover {
+    background-color: #007AFF;
+    border-radius: 15px;
+}
+
+.descricao-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+
+    img {
+        padding:0 0 0.5rem 0;
+    }
+
+    p {
+        font-family: "Rubik", serif;
+        padding: 0 0 0.5rem 0;
+    }
 }
